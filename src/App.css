@@ -28,6 +28,48 @@
   color: #61dafb;
 }
 
+input {
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.send__button {
+  margin-left: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  background-color: #61dafb;
+}
+
+.run__button {
+  margin-top: 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  background-color: #61DAFB;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.row .col {
+  width: 48%;
+}
+
+.row .col p {
+  margin: 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
